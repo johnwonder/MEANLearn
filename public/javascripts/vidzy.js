@@ -1,6 +1,6 @@
 var app = angular.module('Vidzy',['ngRoute']);
 
-app.config(['$routeProvider'],function($routeProvider){
+app.config(['$routeProvider',function($routeProvider){
 
 	$routeProvider
 		.when('/',{
@@ -13,4 +13,4 @@ app.config(['$routeProvider'],function($routeProvider){
 		})
 
 
-})
+}])
