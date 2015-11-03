@@ -7,7 +7,7 @@ app.controller('HomeCtrl',['$scope','$resource',function($scope,$resource){
 			$scope.videos = videos;
 		})
 
-}])
+}]);
 
 app.config(['$routeProvider',function($routeProvider){
 
@@ -23,4 +23,4 @@ app.config(['$routeProvider',function($routeProvider){
 		})
 
 
-}])
+}]);
